@@ -1,5 +1,7 @@
 #!/bin/bash
+PERSON1=Adithya
+PERSON12=Ram
 
-echo "Hi Aditya, How are you?"
-echo "Hi ram, I am fine. How are you?"
-echo "Fine, how is Baahubali movie?"
+echo "Hi $PERSON1, How are you?"
+echo "Hi {$PERSON2}, I am fine. How are you?"
+echo "Fine $PERSON1, how is Baahubali movie?"
